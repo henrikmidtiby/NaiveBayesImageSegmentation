@@ -1,3 +1,21 @@
+% Author: Morten Stigaard Laursen & Henrik Skov Midtiby
+% 
+% If you use this code please cite the paper "Statistics-based segmentation
+% using a continuous-scale naive Bayes approach".
+% The citation details are given below in bibtex
+% @article{Laursen2014271,
+%   title = "Statistics-based segmentation using a continuous-scale naive Bayes approach",
+%   journal = "Computers and Electronics in Agriculture ",
+%   volume = "109",
+%   number = "0",
+%   pages = "271 - 277",
+%   year = "2014",
+%   issn = "0168-1699",
+%   doi = "http://dx.doi.org/10.1016/j.compag.2014.10.009",
+%   url = "http://www.sciencedirect.com/science/article/pii/S0168169914002567",
+%   author = "Morten Stigaard Laursen and Henrik Skov Midtiby and Norbert Krüger and Rasmus Nyholm Jørgensen",
+% }
+% 
 function [featureMatrix, bandwidths, featureNames] = calculateColourFeatures(img, selectedFeatures)
 
 % Define bandwidths
